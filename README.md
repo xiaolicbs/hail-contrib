@@ -1,4 +1,7 @@
 # Hail Community Contributions
+
+[![PyPI](https://img.shields.io/pypi/v/hcc.svg)](https://pypi.python.org/pypi/hcc)
+
 Lightly reviewed community code snippets for [Hail](https://www.hail.is).
 
 Browse the current submissions here:
