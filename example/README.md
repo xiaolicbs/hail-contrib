@@ -1,5 +1,5 @@
 ```
-import hcc.v01.mypkg as mypkg
+import hailc.v01.mypkg as mypkg
 ```
 
 This is code contributed by **My Name**. Here's a sentence or two about

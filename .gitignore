@@ -2,3 +2,4 @@ README
 setup.py
 upload.sh
 setup.cfg
+*.pyc

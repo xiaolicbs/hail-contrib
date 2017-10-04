@@ -1,12 +1,12 @@
 # Hail Community Contributions
 
-[![PyPI](https://img.shields.io/pypi/v/hcc.svg)](https://pypi.python.org/pypi/hcc)
+[![PyPI](https://img.shields.io/pypi/v/hailc.svg)](https://pypi.python.org/pypi/hailc)
 
 Lightly reviewed community code snippets for [Hail](https://www.hail.is).
 
 Browse the current submissions here:
 
-- [**Submissions for Hail 0.1**](./hcc/v01/)
+- [**Submissions for Hail 0.1**](./hailc/v01/)
 
 ## Goals
 
@@ -26,17 +26,17 @@ be created at a later date.
 ## Using this repository
 
 We deploy to the [Python Package Index (PyPI)](https://pypi.python.org/pypi). 
-This means that you can install or upgrade `hcc` with pip:
+This means that you can install or upgrade `hailc` with pip:
 
 ```
-pip install hcc --upgrade
+pip install hailc --upgrade
 ```
 
-Each contributor creates a package inside the `hcc` subdirectory corresponding
+Each contributor creates a package inside the `hailc` subdirectory corresponding
 to the correct version of Hail, which can be imported as follows:
 
 ```python
-import hcc.v01.tpoterba as tp
+import hailc.v01.tpoterba as tp
 ```
 
 The correct import statement should be listed at the top of each contributor's
@@ -65,23 +65,23 @@ present. It would be nice to include at least minimal documentation about
 your submissions and describe how you tested them, but submissions will
 not be rejected without these.
 
-5. **No automatic monkey-patching!**. This is the only code rule -- don't
+5. **No automatic monkey-patching!** This is the only code rule -- don't
 automatically modify Hail classes or methods at import time. However, you can
 include an explicit `patch` function to do this, as long as you document it
 in your README. To a user, the patching will look something like this:
 
     ```
-    import hcc.v01.tpoterba as tp
+    import hailc.v01.tpoterba as tp
     tp.patch()
     ```
 
-6. **Submission template.** If you're wondering what a submission might
-look like, take a look at the [template](./hcc/template). From the repository
+6. **Example submission.** If you're wondering what a submission might
+look like, take a look at the [example](./example). From the repository
 head, you can copy this into a new folder for your package from the
 command line:
 
     ```
-    cp -r hcc/template hcc/v01/mypkg
+    cp -r example hailc/v01/mypkg
     ```
 
 7. **Style.** Try to follow [PEP 8](https://www.python.org/dev/peps/pep-0008/). 

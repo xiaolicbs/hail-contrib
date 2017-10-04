@@ -1,5 +1,5 @@
 ```
-import hcc.v01.tpoterba as tpot
+import hailc.v01.tpoterba as tpot
 ```
 
 This is code contributed by **Tim Poterba**. I'm a software engineer 
