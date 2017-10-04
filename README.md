@@ -80,3 +80,7 @@ command line:
     ```
     cp -r hcc/template hcc/v01/mypkg
     ```
+
+7. **Style.** Try to follow [PEP 8](https://www.python.org/dev/peps/pep-0008/). 
+You may be asked to reformat egregiously unreadable code, but otherwise feel
+free to submit code as you use it yourself.
